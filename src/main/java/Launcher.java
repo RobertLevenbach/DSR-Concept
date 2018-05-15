@@ -5,10 +5,13 @@ public class Launcher {
 
     public static void main(String[] args)
     {
-        new Frame().main(args);
+        Launcher.launch(args);
     }
 
-    private void launch() {
+    private static void launch(String[] args) {
+        new Frame().main(args);
+
+
 
 
     }
